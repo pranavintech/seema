@@ -4,46 +4,26 @@ import "./styles/Home.css";
 export default function Home() {
   return (
     <div className="container">
-      <main className="main">
         <h1 className="title">
-          Welcome to <a href="https://thirdweb.com/">thirdweb</a>!
+          Welcome to SEEMA
         </h1>
 
         <p className="description">
-          Get started by configuring your desired network in{" "}
-          <code className="code">src/index.js</code>, then modify the{" "}
-          <code className="code">src/App.js</code> file!
+          Solar Energy Equity Managment System
         </p>
-
+      
         <div className="connect">
           <ConnectWallet />
         </div>
-
-        <div className="grid">
-          <a href="https://portal.thirdweb.com/" className="card">
-            <h2>Portal &rarr;</h2>
+        <div>
+          <a href="https://thirdweb.com/mumbai/0xE9B1B97509A0048A3a40cdC1069301F9940579a3/events" className="card">
+            <h2></h2>
             <p>
-              Guides, references and resources that will help you build with
-              thirdweb.
-            </p>
-          </a>
-
-          <a href="https://thirdweb.com/dashboard" className="card">
-            <h2>Dashboard &rarr;</h2>
-            <p>
-              Deploy, configure and manage your smart contracts from the
-              dashboard.
-            </p>
-          </a>
-
-          <a href="https://portal.thirdweb.com/templates" className="card">
-            <h2>Templates &rarr;</h2>
-            <p>
-              Discover and clone template projects showcasing thirdweb features.
+              Deploy, configure and manage your smart contract.
             </p>
           </a>
         </div>
-      </main>
-    </div>
-  );
+        </div>
+      
+  )
 }

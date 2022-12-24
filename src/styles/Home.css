@@ -13,7 +13,7 @@
 }
 
 .title a {
-  color: #f213a4;
+  color: #1527ac;
   text-decoration: none;
 }
 
@@ -65,15 +65,15 @@
 
 .card {
   background-color: #1b2129;
-  margin: 1rem;
-  padding: 1.5rem;
+  margin-top: 7rem;
   text-align: left;
+  font-size: 3rem;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #a8c26e;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .card:hover,
@@ -89,12 +89,6 @@
   font-size: 1.5rem;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -107,7 +101,10 @@
   }
 }
 
-.card,
+.card{ 
+  text-align: left;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
 .footer {
   border-color: #222;
 }
